@@ -1,5 +1,4 @@
 // import React from "react";
-// import myResume from "../../assets/files/Lindsey_Martin_Resume_2023.pdf";
 // import { BsCloudDownload } from "react-icons/bs";
 // import { MdFoundation } from "react-icons/md";
 // import { GrTechnology } from "react-icons/gr";
@@ -19,8 +18,7 @@
 //                 <BsCloudDownload />
 //               </a>
 //               <p>
-//                 Please feel free to check out my list of Developer
-//                 Proficiencies!
+//     
 //               </p>
 //             </div>
 //           </div>
