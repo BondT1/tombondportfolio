@@ -5,8 +5,8 @@ import Contact from "../src/components/Contact";
 import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
 import Footer from "../src/components/Footer";
-import { Helmet } from "react-helmet";
-import "./App.css"
+import Helmet from "react-helmet";
+import "./App.css";
 
 function App() {
   const [currentTab, handleTabChange] = useState("about");
@@ -33,7 +33,6 @@ function App() {
       <Helmet>
         <title>Tom Bond Portfolio | {currentTab} </title>
       </Helmet>
-      ;
       <Header
         currentTab={currentTab}
         handleTabChange={handleTabChange}
@@ -45,6 +44,7 @@ function App() {
 }
 
 export default App;
+
 
 
 

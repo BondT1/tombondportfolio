@@ -9,7 +9,7 @@ function Header(props) {
       <section>
         <header className="flex-row px-1">
           <div>
-            <h1>Tom Bond's Porfolio</h1>
+            <h1>Tom Bond</h1>
           </div>
           <div>
             <Nav
@@ -19,7 +19,7 @@ function Header(props) {
           </div>
         </header>
       </section>
-      <section class="hero">
+      {/* <section class="hero">
         <div class="hero-cta">
           {/* <img
             src={coverImage}
@@ -27,13 +27,8 @@ function Header(props) {
             style={{ width: "100%" }}
             alt="cover"
           /> */}
-
-          <h2>Welcome</h2>
-          <p>
-            Welcome to Tom Bond's Portfolio Page.
-          </p>
-        </div>
-      </section>
+        {/* </div>
+      </section> */} */
     </div>
   );
 }
