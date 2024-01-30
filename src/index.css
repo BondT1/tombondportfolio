@@ -13,17 +13,8 @@
   --border-radius: 6px;
 }
 
-/* #root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-} */
-
 body {
-  /* more on this crazy alphanumerical value in a minute! */
-  color: #D5F2EA;
+  color: black;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   min-height: 100vh;
@@ -430,119 +421,7 @@ header nav ul li a:hover {
 
 
 
-/*Resume section*/
-
-.download-intro p {
-  line-height: 1.7;
-  color: #0E5259;
-  width: 95%;
-  font-size: 30px;
-  margin: 0 auto;
-  justify-content: center;
-}
-
-.resume-body {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 10%;
-  margin-top: 5%;
-}
-
-.resume-body>* {
-  flex: 1;
-  margin: 150px;
-}
-
-.column1,
-.column2,
-.column3 {
-  width: 410px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-  margin: 30px 0 0 60px;
-}
-
-.column3 {
-  margin-right: 0%;
-}
-
-
-
-.article {
-  margin: 10px;
-  margin-bottom: 1em;
-  background-color: #B4D9CB;
-}
-
-
-.resume-body img {
-
-  height: auto;
-}
-
-.download-text {
-  height: auto;
-  /* margin-left: 20%; */
-  text-align: center;
-  margin: 0 auto 35px auto;
-  width: 50%;
-}
-
-.download-logo {
-  cursor: pointer;
-  list-style: none;
-  font-size: 40px;
-  color: #0E5259;
-  display: inline-block;
-}
-
-.download-logo:hover {
-  color: #328C83;
-  opacity: 0.5;
-  transition: .5s ease;
-}
-
-
-
-.download-info {
-  flex: 3 70%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-
-}
-
-/* .download-text {
-  flex: 12;
-} */
-/* 
-.download-text p {
-  color: #328C83;
-  font-size: 32px;
-} */
-
-.column-title {
-  color: #285950;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.column-text {
-  color: #285950;
-  font-size: 20px;
-  padding: 5px;
-
-
-}
-
-.column-text ul li {
-  list-style: none;
-}
-
-
-/*End resume section*/
+/* Need to do resume styling when functional
 
 
 
@@ -561,7 +440,6 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  
 
 
 }

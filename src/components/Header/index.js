@@ -28,7 +28,7 @@ function Header(props) {
             alt="cover"
           /> */}
         {/* </div>
-      </section> */} */
+      </section> */}
     </div>
   );
 }

@@ -44,7 +44,7 @@ function Contact() {
       return;
     }
 
-    // If everything goes according to plan, we want to clear out the input after a successful submission.
+    // clear out the input after a successful submission.
     setUserName("");
     setMessage("");
     setEmail("");
@@ -59,19 +59,16 @@ function Contact() {
       <div className="contact-info">
         <div>
           <h3>Hello {userName}</h3>
-          <p>Want to get into contact?</p>
+          <p>Want to get in contact?</p>
           <address>
             Birmingham, UK<br />
             P: <a href="tel:07860803600">07860803600</a>
             <br />
             E:{" "}
-            <a href="mailto://tombond248@gmail.com">
-              tombond248@gmail.com
+            <a href="mailto://tombond258@gmail.com">
+              tombond258@gmail.com
             </a>
           </address>
-          <p>
-            <strong>I'd love to hear your feedback!</strong>
-          </p>
         </div>
 
         {/* contact form section  */}
