@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
 function Nav(props) {
   const {
     currentTab,
@@ -57,7 +55,7 @@ function Nav(props) {
             // Check to see if the currentTab is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentTab === 'Resume' ? 'nav-link active' : 'nav-link'}
           >
-            Resume
+            CV
           </a>
         </li>
     </ul>
