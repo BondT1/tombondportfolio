@@ -35,7 +35,7 @@ function Nav(props) {
             // Check to see if the currentTab is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentTab === 'Portfolio' ? 'nav-link active' : 'nav-link'}
           >
-            Portfolio
+            Projects
           </a>
         </li>
         <li className="nav-item">
